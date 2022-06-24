@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+}
+
+.but{
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+}
+
+
+.but div{
+    margin-left: 10px;
+}
+/* #button{
+    margin: 0px auto;
+
+} */
+
+canvas{
+    /* position: absolute;
+    left: 500px;
+    top: 150px; */
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.final{
+    /* position: absolute;
+    left: 620px;
+    top: 10px; */
+    margin: 0px auto;
+}
+
+
+.description{
+    position: absolute;
+    top: 730px;
+    left: 800px;
+}
+
+.description div{
+    border-bottom: 1px solid black;
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+
+
+.grass{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.grass p {
+    margin-left: 10px;
+}
+
+#green{
+    width: 30px;
+    height: 30px;
+    background-color: #31e037;
+    /* position: absolute; */
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#yellow{
+    width: 30px;
+    height: 30px;
+    background-color: #f0f573;
+    /* position: absolute; */
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#red{
+   
+        width: 30px;
+        height: 30px;
+        background-color: #e63420;
+        /* position: absolute; */
+        margin-left: 15px;
+        margin-top: 10px;
+    
+    
+}
+
+#blue{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    /* position: absolute; */
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#black{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    /* position: absolute; */
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+button{
+    border-radius: 5px;
+    border-color: aliceblue;
+}
